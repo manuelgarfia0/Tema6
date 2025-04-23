@@ -1,22 +1,22 @@
-package boletin1.ejercicio2;
+package boletin1.ejercicio01;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.Scanner;
 
-public class Ejercicio2 {
+public class Ejercicio1 {
 
 	public static void main(String[] args) {
 
-		int suma = 0;
+		double suma = 0;
 		double media;
-		int num;
+		double num;
 		int cont = 0;
 
 		try {
-			Scanner scanner = new Scanner(new FileReader("src\\boletin1\\ejercicio2\\Enteros.txt"));
-			while (scanner.hasNextInt()) {
-				num = scanner.nextInt();
+			Scanner scanner = new Scanner(new FileReader("src\\boletin1\\ejercicio01\\NumerosReales.txt"));
+			while (scanner.hasNextDouble()) {
+				num = scanner.nextDouble();
 				suma += num;
 				cont++;
 			}

@@ -1,4 +1,4 @@
-package boletin1.ejercicio4;
+package boletin1.ejercicio04;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -10,7 +10,7 @@ public class Ejercicio4 {
 	public static void main(String[] args) {
 
 		try {
-			BufferedWriter bw = new BufferedWriter(new FileWriter("src\\boletin1\\Ejercicio4\\texto.txt"));
+			BufferedWriter bw = new BufferedWriter(new FileWriter("src\\boletin1\\Ejercicio04\\texto.txt"));
 			Scanner scanner = new Scanner(System.in);
 			String linea;
 			do {

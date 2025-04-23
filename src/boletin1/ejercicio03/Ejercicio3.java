@@ -1,4 +1,4 @@
-package boletin1.ejercicio3;
+package boletin1.ejercicio03;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -19,7 +19,7 @@ public class Ejercicio3 {
 		double altura;
 
 		try {
-			BufferedReader br = new BufferedReader(new FileReader("src\\boletin1\\Ejercicio3\\Alumnos.txt"));
+			BufferedReader br = new BufferedReader(new FileReader("src\\boletin1\\ejercicio03\\Alumnos.txt"));
 
 			String linea = br.readLine();
 			while (linea != null) {
