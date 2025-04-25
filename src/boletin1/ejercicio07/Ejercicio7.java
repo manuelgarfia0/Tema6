@@ -116,7 +116,7 @@ public class Ejercicio7 {
 			sc.close();
 			br.close();
 		} catch (FileNotFoundException e) {
-			System.out.println("Error al abrir el archivo para leer");
+			System.out.println("No se ha encontrado el archivo");
 		} catch (IOException e1) {
 			System.out.println("Error al leer el archivo");
 		}
